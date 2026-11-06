@@ -7,17 +7,46 @@ nav{
     display: flex;
     justify-content: center;
     gap: 20px;
+    box-shadow: 0px 3px 12px #00000030 ;
+    padding: 10px;
 }
 
 .nav-item{
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
+    text-decoration: none;
+    color: black;
+    gap: 8px;  
+    opacity: 0.7;
+    transition: all 200ms ease-in-out;
+}
+.nav-item:hover{
+    opacity: 1;
 }
 
 
 .icone-nav{
-    width: 40px;
+    width: 30px;
     margin: auto;
 
+}
+
+.nav-item p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1{
+    background-image: url('../assets/images/images.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    box-shadow: 0px 3px 12px #00000030 ;
+}
+
+.s2{
+    height: 100vh;
 }
